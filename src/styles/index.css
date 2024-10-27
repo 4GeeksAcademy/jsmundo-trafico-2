@@ -10,3 +10,91 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* Contenedor del semáforo */
+/* Trafico.css */
+
+/* Contenedor del semáforo */
+/* Trafico.css */
+
+/* Contenedor del semáforo */
+/* Trafico.css */
+
+/* Contenedor del semáforo */
+/* Centrar el contenedor en la pantalla */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.trafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #222;
+}
+
+
+.luz {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: gray; 
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+
+.red {
+    background-color: #d32f2f;
+}
+
+.yellow {
+    background-color: #fbc02d;
+}
+
+.green {
+    background-color: #388e3c;
+}
+
+.purple {
+    background-color: #8e24aa;
+}
+
+
+.encendida {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    opacity: 1;
+    transform: scale(1.1); 
+}
+
+
+.boton-cambiar {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.boton-cambiar:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
